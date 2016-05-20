@@ -1,6 +1,6 @@
 ###git命令集合
-
->history  `查看你敲的历史命令`
+```
+history  `查看你敲的历史命令`
 cd d/     `转到某个盘符或者文件夹`
 mkdir    `创建文件夹`
 git  init   `初始化git`
@@ -19,7 +19,7 @@ git remote -v `查看你提交仓库地址`
 git push origin master  `将本地的代码push到远程仓库`
 git pull origin master  `将远程的代码pull到本地并且做合并操作`
 --hlep  `例：git commit --hlep,打开命令相应的帮助文档`
-
+```
 
 
 ###配置alias别名
@@ -48,12 +48,13 @@ $ ssh-keygen -t rsa -C "cb8787cbq@qq.com"
 $ npm config set registry http://registry.npm.taobao.org
 $ npm config set loglevel=http
 ```
->npm install 模块名 -g --save --save -dev  `--save 版本名和版本号记录在dependencies字段 --save-dev 版本名和版本号记录在devDependencies字段`
+```
+npm install 模块名 -g --save --save -dev  `--save 版本名和版本号记录在dependencies字段 --save-dev 版本名和版本号记录在devDependencies字段`
 npm ls -g `查看全局安装的模块`
 npm uninstall express  `卸载模块`
 npm ls  `查看模块是否存在`
 npm update express `更新模块`
-
+```
 常用命令
 >NPM提供了很多命令，例如install和publish，使用npm help可查看所有命令。
 使用npm help 可查看某条命令的详细帮助，例如npm help install。
