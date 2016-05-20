@@ -15,6 +15,10 @@ cat   	`例： cat ~/ssh/README.md`
 git remote add origin  `git remote add origin 你的github上的仓库地址 例：git remote add origin git@github.com:benq1987/react-demos.git`
 git log  `看版本信息等`
 git remote -v `查看你提交仓库地址`
+git push origin master  `将本地的代码push到远程仓库`
+git pull origin master  `将远程的代码pull到本地并且做合并操作`
+
+
 
 ###配置alias别名
 
