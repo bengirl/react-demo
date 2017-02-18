@@ -23,7 +23,7 @@ git pull origin master  `将远程的代码pull到本地并且做合并操作`
 
 test test test
 
-###配置alias别名
+###配置alias别名asfsafsdf
 
 ``` python
 $ git config --global alias.st status
