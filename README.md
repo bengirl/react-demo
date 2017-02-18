@@ -21,6 +21,7 @@ git pull origin master  `将远程的代码pull到本地并且做合并操作`
 --hlep  `例：git commit --hlep,打开命令相应的帮助文档`
 ```
 
+test test test
 
 ###配置alias别名
 
